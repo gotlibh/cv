@@ -1,0 +1,85 @@
+/* *********************************** TYPE SELECTORS *********************************** */
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* *********************************** TOP TITLE *********************************** */
+.title-div {
+  background-color: #ffefa0;
+  padding: 50px;
+}
+
+.logo-img {
+  width: 5%;
+  float: left;
+}
+
+.company-name {
+  color: #ac4b1c;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+/* *********************************** LOGIN AREA *********************************** */
+.login-div {
+  background-color: #ffd57e;
+  padding: 175px;
+}
+
+.username-input {
+  width: 300px;
+  margin: auto;
+}
+
+.password-input {
+  width: 300px;
+  margin: 40px auto;
+}
+
+.password-div {
+  margin: 20px;
+}
+
+.input-group-text {
+  width: 110px;
+}
+
+.login-btn {
+  margin: 30px auto;
+  box-shadow: 0 1px 0 0 #fff6af;
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 5px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 11px 38px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffee66;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+
+.login-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/* *********************************** FOOTER AREA *********************************** */
+.footer-div {
+  background-color: #ac4b1c;
+  color: white;
+  padding: 30px;
+  font-family: 'Merriweather', serif;
+}
