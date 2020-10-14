@@ -131,12 +131,13 @@ hr {
 
 /* Mobile Settings */
 
-@media (max-width: 1200px) {
+@media only screen and (min-width: 384px) and (max-width: 767px) {
   .description-container {
     display: none;
   }
 
   .main {
     margin: auto;
+    
   }
 }
