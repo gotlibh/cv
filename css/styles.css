@@ -115,17 +115,37 @@ hr {
     font-size: 2rem;
   }
 
+  .navbar-container {
+    padding: 5%;
+  }
+
   .login-div {
     margin-top: 40%;
     width: 450px;
+    margin-left: 200px;;
+  }
+
+  .logo-name {
+    font-family: 'Kanit', sans-serif;
+    font-size: 5rem;
+    line-height: 0.8;
+  }
+
+  .logo-desc {
+    font-size: 2rem;
+    padding: 0 0 0 5px;
   }
 
   .form-group {
     margin-bottom: 20%;
   }
 
-  .username-input {
+  .username-label, .password-label {
+    font-size: 4rem;
+  }
 
+  .username-input, .password-input {
+    font-size: 3rem;
   }
 
   .password-input {
@@ -135,5 +155,6 @@ hr {
   .login-btn {
     height: 70px;
     width: 60%;
+    font-size: 2rem;
   }
 }
