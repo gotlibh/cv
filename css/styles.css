@@ -88,6 +88,7 @@ hr {
   margin: auto;
   width: 15%;
   margin-top: 10%;
+  min-width: 200px;
 }
 
 .login-btn {
