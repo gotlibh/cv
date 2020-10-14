@@ -128,6 +128,13 @@ hr {
   background-color: #0a3847;
 }
 
+/* Copyright Section */
+
+.copyright-div {
+  margin-top: 5%;
+  text-align: center;
+  color: lightgray;
+}
 
 /* Mobile Settings */
 
@@ -138,6 +145,6 @@ hr {
 
   .main {
     margin: auto;
-    
+
   }
 }
