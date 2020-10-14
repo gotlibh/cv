@@ -86,9 +86,8 @@ hr {
 /* Login Section */
 .login-div {
   margin: auto;
-  width: 15%;
+  width: 300px;
   margin-top: 10%;
-  min-width: 200px;
 }
 
 .login-btn {
@@ -102,7 +101,6 @@ hr {
 }
 
 /* Copyright Section */
-
 .copyright-div {
   position: absolute;
   margin-top: 20%;
@@ -111,3 +109,31 @@ hr {
 }
 
 /* Mobile Settings */
+@media only screen and (max-width: 1268px) {
+  body{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+  }
+
+  .login-div {
+    margin-top: 40%;
+    width: 450px;
+  }
+
+  .form-group {
+    margin-bottom: 20%;
+  }
+
+  .username-input {
+
+  }
+
+  .password-input {
+
+  }
+
+  .login-btn {
+    height: 70px;
+    width: 60%;
+  }
+}
