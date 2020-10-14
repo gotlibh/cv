@@ -83,39 +83,16 @@ hr {
   z-index: -1;
 }
 
-/* Description Section */
 
-#description {
+/* Login Section */
+#login {
   overflow: hidden;
 }
 
-.description-container {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.description-card {
-  text-align: left;
-  margin: 15% 10% 10% 10%;
-  font-family: 'kanit';
-  font-family: 'Rubik', sans-serif;
-  font-size: 2rem;
-  color: #054f55;
-}
-
-.card {
-  border-radius: 5%
-}
-
-.text-card {
-  background-color: #f4f0ee;
-}
-
-/* Login Section */
-
-.card-body-username {
-  margin-top: 250px;
-  font-family: 'ubuntu'
+.login-div {
+  margin: auto;
+  width: 300px;
+  margin-top: 10%;
 }
 
 .login-btn {
@@ -131,20 +108,10 @@ hr {
 /* Copyright Section */
 
 .copyright-div {
-  margin-top: 5%;
+  position: absolute;
+  margin-top: 15%;
   text-align: center;
   color: lightgray;
 }
 
 /* Mobile Settings */
-
-@media only screen and (min-width: 184px) and (max-width: 900px) {
-  .description-container {
-    display: none;
-  }
-
-  .main {
-    margin: auto;
-
-  }
-}
